@@ -5,7 +5,7 @@ const PRECACHE_URLS = [
   '/index.html',
   '/src/main.tsx',
   '/manifest.json',
-  '/icon.svg'
+  '/icon.png'
 ];
 
 self.addEventListener('install', (event) => {
