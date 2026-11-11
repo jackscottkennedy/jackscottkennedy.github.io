@@ -1,0 +1,15 @@
+{
+  "Glass": {
+    "$type": "number",
+    "$value": 50,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2:18",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

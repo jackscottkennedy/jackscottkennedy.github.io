@@ -1,0 +1,12 @@
+{
+  "id": "builtin-9",
+  "title": "My Track",
+  "artist": "Artist",
+  "album": "Album",
+  "genre": "Lo-Fi",
+  "duration": 180,
+  "artworkUrl": "https://…",
+  "audioUrl": "/music/songs/atlasaudio-80s-pop-617534.mp3",
+  "isOwned": true,
+  "year": "2025"
+}

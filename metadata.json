@@ -1,0 +1,7 @@
+{
+  "name": "Aura Music Player",
+  "description": "Phone and computer PWA music app to discover, buy, own music, import local folders, and remix songs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

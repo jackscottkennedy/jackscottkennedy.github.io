@@ -1,0 +1,62 @@
+{
+  "LightGlass": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.7006272673606873,
+        0.7006272673606873,
+        0.7006272673606873
+      ],
+      "alpha": 0.3499999940395355,
+      "hex": "#B3B3B3"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2:16",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "Text": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#FFFFFF"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5:490",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "DarkGlass": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.3314115107059479,
+        0.3314115107059479,
+        0.3314115107059479
+      ],
+      "alpha": 0.3499999940395355,
+      "hex": "#555555"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:9:1308",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

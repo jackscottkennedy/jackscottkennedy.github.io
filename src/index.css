@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-DarkGlass {
+    background-color: rgba(85, 85, 85, 0.35);
+  }
+  .bg-LightGlass {
+    background-color: rgba(179, 179, 179, 0.35);
+  }
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  color-scheme: dark;
+}
+
+/* Custom spinning vinyl animation */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-disc {
+  animation: spinSlow 8s linear infinite;
+}
+
+.spin-running {
+  animation-play-state: running !important;
+}
+
+.spin-paused {
+  animation-play-state: paused !important;
+}
+
+/* Hide scrollbars while allowing smooth scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom range input styling for smooth glass sliders */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-top: -6px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+}
